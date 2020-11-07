@@ -19,29 +19,44 @@
 		<div id="wrapper">
 			<form name="quiz" id="quiz">	
 				<div class="question">
-					<p>What is the name of Metallica's drummer?</p>
-					<p><input type="radio"  name="question1" value="Lars">Lars</p>
-					<p><input type="radio"  name="question1" value="Steve">Steve</p>
-					<p><input type="radio"  name="question1" value="Brian">Brian</p>
-					<p><input type="radio" name="question1" value="Alex">Alex</p>
+					<h4>What is the name of Metallica's drummer?</h4>
+                        <div class="radio-buttons">
+                            <label class="custom-radio">
+                                <p><input type="radio"  name="question1" value="Lars Ulrich">Lars Ulrich</p>
+                                    <span class="radio-btn"><img src="../img/larssquare.jpg"></span>
+                            </label>
+                            <label class="custom-radio">
+                                <p><input type="radio"  name="question1" value="Charlie Benante">Charlie Benante</p>
+                                    <span class="radio-btn"><img src="../img/charliesquare.jpg"></span>
+                            </label>
+                            <label class="custom-radio">
+                                <p><input type="radio"  name="question1" value="Nick Menza">Nick Menza</p>
+                                    <span class="radio-btn"><img src="../img/menzasquare.jpg"></span>
+                            </label>
+                            <label class="custom-radio">
+                                <p><input type="radio" name="question1" value="Alex">Paul Bostaph</p>
+                                    <span class="radio-btn"><img src="../img/paulbossquare.jpg"></span>
+                            </label>
+                        </div>
 				</div>               
                 <div class="question">
-					<p>What is the name of Slayer's bassist?</p>
-					<p><input type="radio"  name="question2" value="Tom">Tom</p>
-					<p><input type="radio"  name="question2" value="David">David</p>
-					<p><input type="radio"  name="question2" value="Nigel">Nigel</p>
-					<p><input type="radio" name="question2" value="Alan">Alan</p>
+					<h4>What is the name of Slayer's bassist?</h4>
+                        <div class="radio-buttons">
+                            <p><input type="radio"  name="question2" value="Tom">Tom</p>
+                            <p><input type="radio"  name="question2" value="David">David</p>
+                            <p><input type="radio"  name="question2" value="Nigel">Nigel</p>
+                            <p><input type="radio" name="question2" value="Alan">Alan</p>
+                        </div>
 				</div>
                 <div class="question">
-					<p>What is the name Megadeth's first bassist?</p>
-					<p><input type="radio"  name="question3" value="James">James</p>
-					<p><input type="radio"  name="question3" value="David">David</p>
-					<p><input type="radio"  name="question3" value="Frank">Frank</p>
-					<p><input type="radio" name="question3" value="Alan">Alan</p>
-				</div>
-                
-				
-				
+					<h4>What is the name Megadeth's first bassist?</h4>
+                        <div class="radio-buttons">
+                            <p><input type="radio"  name="question3" value="James">James</p>
+                            <p><input type="radio"  name="question3" value="David">David</p>
+                            <p><input type="radio"  name="question3" value="Frank">Frank</p>
+                            <p><input type="radio" name="question3" value="Alan">Alan</p>
+                        </div>
+				</div>				
 				<input type="button" name="" value="I am done!" onclick="check()">
 			</form>
 	  	</div>

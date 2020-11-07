@@ -6,14 +6,12 @@ function check () {
     var radios3 = document.getElementsByName('question3');
 // question 1
     for (var i = 0; i < radios.length; i++) {
-    if (radios[i].checked) 
-    {
-        if (radios[i].value == "Lars") 
-            {
-            c++
-            } else 
-            {
-            w++
+        if (radios[i].checked) 
+        {
+            if (radios[i].value == "Lars") {
+                c++
+            } else {
+                w++
             } 
         } 
     } 
@@ -43,7 +41,6 @@ function check () {
             } 
         }
     } 
-    console.log(c);
-    console.log(w);
+    alert(`you got ${c} answers correct and ${w} answers wrong!`)
 } //end of check function
 
