@@ -8,7 +8,7 @@ function check () {
     for (var i = 0; i < radios.length; i++) {
         if (radios[i].checked) 
         {
-            if (radios[i].value == "Lars") {
+            if (radios[i].value == "Lars Ulrich") {
                 c++
             } else {
                 w++

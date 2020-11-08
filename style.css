@@ -1,11 +1,7 @@
-
-
 * {
     color: white;
     background-color: black;
 }
-
-
 
 .heading {
    font-family: 'Metal Mania', cursive; 
@@ -53,6 +49,19 @@
     max-width: 100%;
 }
 
-.custom-radio input:checked + .radio-btn {
-    border: 3px solid lawngreen;
+/* HIDE RADIO */
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+  cursor: pointer;
+}
+
+#wrapper label input span :checked {
+    border: yellow;
 }
